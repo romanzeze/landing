@@ -1,0 +1,17 @@
+.carousel-slide-container{
+    display: flex;
+}
+.carousel-slide-img{
+    width: 50%;
+}
+
+.carousel-title {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.798px;
+    text-align: center;
+    color: var(--text-main-color);
+    margin: 45px;
+    
+}
