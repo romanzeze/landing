@@ -10,7 +10,7 @@
 }
 
 
-.carousel-slide-container {
+.flex {
     display: flex;
 
 }
@@ -18,7 +18,10 @@
 .carousel-slide-img {
     width: 100%;
 }
+.carousel-slide-text{
+    width: 100px;
 
+}
 .carousel-text-ifno {
     font-size: 17px;
     font-weight: 400;

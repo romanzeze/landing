@@ -1,6 +1,6 @@
 (function () {
     const slides = [
-    `<div class="slide-container">
+    `<div class="slide-container flex ">
         <div class="carousel-slide-text">
             <p class="carousel-slide-text-general">Name:</p>
             <p class="carousel-slide-text">Jumanji</p>
@@ -24,7 +24,8 @@
             <img src="img/our-rooms-jumanji.png" alt="Jumanji">
         </div>
     </div>`,
-        `<div class="carousel-slide-text-container">
+        `<div class="slide-container flex ">
+         <div class="carousel-slide-text-container">
             <p class="carousel-slide-text-general">Name:</p>
             <p class="carousel-slide-text">Crazy Scientist</p>
             <p class="carousel-slide-text-general">Players:</p>
