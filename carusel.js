@@ -1,11 +1,14 @@
 (function () {
     const slides = [
-        `<div class="carousel-slide">
-            <p class="carousel-slide-text">Name:</p>
+    `<div class="slide-container">
+        <div class="carousel-slide-text">
+            <p class="carousel-slide-text-general">Name:</p>
             <p class="carousel-slide-text">Jumanji</p>
-            <p class="carousel-slide-text">Players:</p>
+            <p class="carousel-slide-text-general">Players:</p>
             <p class="carousel-slide-text">4-9</p>
-            <p>It all started as in the same-name movie: you started a game that brought you to real
+            <p class="carousel-text-ifno">It all started as in the same-name movie: you started a game that brought you
+                to
+                real
                 jungles!
                 Everything is strange, poisoned and willing to kill you here.
                 Now you are in a hunter's house but it's not safe here. Can you find your way out
@@ -19,13 +22,14 @@
         </div>
         <div class="carousel-slide-img">
             <img src="img/our-rooms-jumanji.png" alt="Jumanji">
-        </div>`,
-        `<div class="carousel-slide">
-            <p class="carousel-slide-text">Name:</p>
+        </div>
+    </div>`,
+        `<div class="carousel-slide-text-container">
+            <p class="carousel-slide-text-general">Name:</p>
             <p class="carousel-slide-text">Crazy Scientist</p>
-            <p class="carousel-slide-text">Players:</p>
+            <p class="carousel-slide-text-general">Players:</p>
             <p class="carousel-slide-text">4-7</p>
-            <p>
+            <p class="carousel-text-ifno">
                 It was an ordinary day. You and your friends received an invitation to the party in an
                 unfamiliar neighborhood.
                 Everything was awesome until you were trapped in a strange room with flasks and
@@ -37,16 +41,16 @@
             </p>
             <a href="#">Learn More</a>
             <a href="#">See More Quests</a>
-            <div class="carousel-slide-img">
+            <div class="carousel-slide-img-container">
                 <img src="img/our-rooms-crazy-scientist.jpeg" alt="Crazy Scientist">
             </div>
         </div>`,
-        ` <div class="carousel-slide">
-        <p class="carousel-slide-text">Name:</p>
+        ` <div class="carousel-slide-text-container">
+        <p class="carousel-slide-text-general">Name:</p>
         <p class="carousel-slide-text">Sherlock Holmest</p>
-        <p class="carousel-slide-text">Players:</p>
+        <p class="carousel-slide-text-general">Players:</p>
         <p class="carousel-slide-text">2-6</p>
-        <p>
+        <p class="carousel-text-ifno">
             Sherlock Holmes gives you the first clue to the unsolved Egyptian mystery.
             Somewhere in the room, you will find the key to the ancient myth.
             It will also be your clue to finding a way out.
@@ -57,7 +61,7 @@
         </p>
         <a href="#">Learn More</a>
         <a href="#">See More Quests</a>
-        <div class="carousel-slide-img">
+        <div class="carousel-slide-img-container">
             <img src="img/our-rooms-sherlock-holmes.png"  alt=" Sherlock Holmes">
         </div>`
     ]
