@@ -2,10 +2,8 @@
     const slides = [
     `<div class="slide-container flex ">
         <div class="carousel-slide-text">
-            <p class="carousel-slide-text-general">Name:</p>
-            <p class="carousel-slide-text">Jumanji</p>
-            <p class="carousel-slide-text-general">Players:</p>
-            <p class="carousel-slide-text">4-9</p>
+            <p><span>Name:</span><span>Jumanji</span></p>
+            <p class="carousel-slide-text-general"><span>Players:</span> <span>4-9</span></p>
             <p class="carousel-text-ifno">It all started as in the same-name movie: you started a game that brought you
                 to
                 real
