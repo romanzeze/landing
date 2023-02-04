@@ -7,36 +7,100 @@
     color: var(--text-main-color);
     margin: 45px;
 }
+
 .flex {
     display: flex;
-
 }
 
-.carousel-slide-img {
-    width: 100%;
+.slide-container {
+    max-width: 1170px;
+    margin: 0 auto;
 }
-.carousel-slide-text{
-    width: 100px;
 
+.carousel-slide-text {
+    width: 50%;
+    background: var(--block-color);
+    padding: 60px 40px;
 }
+
+.carousel-slide-text-characteristics {
+    color: var(--banner-right-button-color-active);
+}
+
 .carousel-text-ifno {
     font-size: 17px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     line-height: 25.5px;
     color: var(--text-about-paragraph);
-    margin-top: 28px;
-    margin-bottom: 1px;
+    padding: 30px 0;
 }
 
-.carousel-text-ifno {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+.carousel-slide-text-general {
+    font-size: 22px;
+}
+.carousel-slide-text-general:first-child{
+    padding-bottom:30px;
+}
 
+.carousel-slide-button-left {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 68px 20px 68px;
+    margin: 10px;
+    color: var(--banner-text-color);
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3px;
+    line-height: 14.3px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--banner-right-button-color);
+    border-width: 2px;
+    border-radius: 27px;
+    border-style: solid;
+}
+
+.carousel-slide-button-left:hover {
+    background-color: var(--banner-right-button-color-hover);
+}
+
+.carousel-slide-button-right {
+    display: block;
+    box-sizing: border-box;
+    padding: 18px 49px 18px 49px;
+    margin: 10px;
+    color: var(--banner-text-color);
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3px;
+    line-height: 14.3px;
+    background-color: var(--banner-left-button-color);
+    box-shadow: rgba(255, 197, 53, 0.3) 0px 10px 23.8px 1.2px;
+    border-width: 2px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: var(--banner-left-button-color)
+}
+
+.carousel-slide-button-right:hover {
+    background-color: var(--banner-left-button-color-hover);
+    border-color: var(--banner-left-button-color-hover)
+}
+
+.carousel-slide-img {
+    width: 50%;
+}
+
+.carousel-slide-img img {
+    width: 100%;
 }
 
 @media (max-width: 768px) {
-    .flex{
+    .flex {
         flex-wrap: wrap;
     }
 }

@@ -1,11 +1,9 @@
 (function () {
     const slides = [
-    `<div class="slide-container flex ">
+        `<div class="slide-container flex ">
         <div class="carousel-slide-text">
-            <p class="carousel-slide-text-general">Name:</p>
-            <p class="carousel-slide-text">Jumanji</p>
-            <p class="carousel-slide-text-general">Players:</p>
-            <p class="carousel-slide-text">4-9</p>
+            <p class="carousel-slide-text-general"><span class="carousel-slide-text-characteristics">Name:</span><span> Jumanji</span></p>
+            <p class="carousel-slide-text-general"><span class="carousel-slide-text-characteristics">Players:</span><span> 4-9</span></p>
             <p class="carousel-text-ifno">It all started as in the same-name movie: you started a game that brought you
                 to real jungles! Everything is strange, poisoned and willing to kill you here.
                 Now you are in a hunter's house but it's not safe here. Can you find your way out from the killing jungles?
@@ -55,7 +53,7 @@
             <img src="img/our-rooms-sherlock-holmes.png"  alt=" Sherlock Holmes">
         </div>
     </div>`
-    ]
+    ];
 
     let currentSlideIdx = 0;
 
@@ -70,7 +68,6 @@
     }
     //setInterval(nextSlide, 10000);
     renderSlides();
-
     const btnNext = document.querySelector('.carousel__btn-next');
     btnNext.addEventListener('click', nextSlide);
 
@@ -79,7 +76,4 @@
         currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
         renderSlides();
     });
-
-
-
 })();
