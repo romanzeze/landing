@@ -66,7 +66,7 @@
         currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
         renderSlides();
     }
-
+    //setInterval(nextSlide, 10000);
     renderSlides();
 
     const btnNext = document.querySelector('.carousel__btn-next');
@@ -77,6 +77,7 @@
         currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
         renderSlides();
     });
+
 
 
 })();
