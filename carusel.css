@@ -111,14 +111,14 @@
     position: absolute;
     top: 350px;
     left: 100px;
-    width: 14px;
     background-color:var(--banner-left-button-color);
+    
+
 }
 
 .carousel__btn-next{
     position: absolute;
     top:350px;
-    right:100px;
     width: 14px;
     background-color:var(--banner-left-button-color);
 }
